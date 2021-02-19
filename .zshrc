@@ -28,7 +28,7 @@ alias md='cd ~/desktop/mdforest;source ~/desktop/mdforest/.venv/bin/activate; py
 alias mdk='pkill -9 -ef app.py'
 alias mdb='rm -r ~/desktop/mdforest/server.log; cd ~/desktop/mdforest; source ~/desktop/mdforest/.venv/bin/activate; nohup python3 ~/desktop/mdforest/app.py 1>/dev/null 2>&1 &; deactivate;'
 alias mdr='rm -r ~/desktop/mdforest/server.log; cd ~/desktop/mdforest; pkill -9 -ef app.py; source ~/desktop/mdforest/.venv/bin/activate; nohup python3 ~/desktop/mdforest/app.py 1>/dev/null 2>&1 &; deactivate;'
-alias mdd='cd ~/desktop/mdforest/static/img/answer; mv * .hidden; cd ~/desktop/mdforest/'
+alias mdd='cd ~/desktop/mdforest/static/img/answer; mv * .hidden; cd ~/desktop/mdforest/templates; mv form/answer.html answer/'
 
 ## mdtoon
 #alias mvtoon='mv ~/desktop/mdforest/templates/mdtoon/.hidden/0*.html ~/desktop/mdforest/templates/mdtoon/'
