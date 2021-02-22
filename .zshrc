@@ -6,6 +6,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 # System
+alias vi='vim'
 alias lg='logout'
 alias cl='clear'
 alias cr='crontab -e'
@@ -31,10 +32,8 @@ alias mdr='rm -r ~/desktop/mdforest/server.log; cd ~/desktop/mdforest; pkill -9 
 alias mdd='cd ~/desktop/mdforest/static/img/answer; mv * .hidden; cd ~/desktop/mdforest/templates; cp form/answer.html answer/; cd ~/desktop/mdforest'
 
 ## space
-alias sp='cd ~/desktop/space;source ~/desktop/space/.venv/bin/activate; python3 ~/desktop/space/app.py'
-alias spk='pkill -9 -ef app.py'
-alias spb='rm -r ~/desktop/space/server.log; cd ~/desktop/space; source ~/desktop/space/.venv/bin/activate; nohup python3 ~/desktop/space/app.py 1>/dev/null 2>&1 &; deactivate;'
-alias spr='rm -r ~/desktop/space/server.log; cd ~/desktop/space; pkill -9 -ef app.py; source ~/desktop/space/.venv/bin/activate; nohup python3 ~/desktop/space/app.py 1>/dev/null 2>&1 &; deactivate;'
+alias spk='sudo systemctl stop space'
+alias spr='sudo systemctl restart space'
 
 ## mdtoon
 #alias mvtoon='mv ~/desktop/mdforest/templates/mdtoon/.hidden/0*.html ~/desktop/mdforest/templates/mdtoon/'
@@ -42,5 +41,8 @@ alias spr='rm -r ~/desktop/space/server.log; cd ~/desktop/space; pkill -9 -ef ap
 
 
 # PATH
+alias sep='cd ~/desktop/service'
+alias ngp='cd ~/desktop/nginx'
+alias spp='cd ~/desktop/space'
 alias mdp='cd ~/desktop/mdforest'
-alias zshp='cd ~/desktop/zshrc'
+alias zsp='cd ~/desktop/zshrc'
