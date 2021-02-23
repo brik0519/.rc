@@ -1,5 +1,14 @@
 # .zshrc
 
+## v0.3
+### https 개시
+- nginx
+    - ng
+    - ngk
+    - ngr
+- [ ] DB 관련 명령어?
+
+
 ## v0.2
 ### 본격적인 설정파일 공유
 - mdd
@@ -7,6 +16,7 @@
 - space
     - 관련 명령어 추가
     - spk, spr로 단순화
+
 
 ## v0.1
 - .gitignore
