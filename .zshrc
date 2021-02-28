@@ -1,7 +1,10 @@
 # Basic
 export ZSH="/home/brik0519/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
-plugins=(git)
+plugins=(
+	git
+	zsh-autosuggestions
+)
 source $ZSH/oh-my-zsh.sh
 
 
@@ -10,7 +13,7 @@ alias vi='vim'
 alias lg='logout'
 alias cl='clear'
 alias cr='crontab -e'
-alias zh='vi ~/desktop/zshrc/.zshrc'
+alias zs='vim ~/desktop/zshrc/.zshrc'
 
 
 # Fail2ban
