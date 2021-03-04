@@ -8,7 +8,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # PATH
-export PATH=$HOME/brik0519/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
+
 
 # System
 alias vi='vim'
@@ -51,8 +52,12 @@ alias spr='sudo systemctl restart space'
 #alias mvtoon='mv ~/desktop/mdforest/templates/mdtoon/.hidden/0*.html ~/desktop/mdforest/templates/mdtoon/'
 #alias backtoon='mv ~/desktop/mdforest/templates/mdtoon/0*.html ~/desktop/mdforest/templates/mdtoon/.hidden/'
 
+## labs
+alias lap='cd ~/labs'
+alias fip='cd ~/labs/firebase'
 
-# PATH
+
+# shortcuts
 alias sep='cd ~/desktop/service'
 alias ngp='cd ~/desktop/nginx'
 alias spp='cd ~/desktop/space'
