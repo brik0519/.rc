@@ -7,6 +7,8 @@ plugins=(
 )
 source $ZSH/oh-my-zsh.sh
 
+# PATH
+export PATH=$HOME/brik0519/.local/bin:$PATH
 
 # System
 alias vi='vim'
@@ -23,6 +25,7 @@ alias sshd='sudo fail2ban-client status sshd'
 # Python
 alias python='python3'
 alias pip='pip3'
+alias ve='source .venv/bin/activate'
 alias de='deactivate'
 
 
