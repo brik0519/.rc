@@ -7,6 +7,7 @@ ln -s /home/brik0519/desktop/zshrc/.zshrc ~/.zshrc
 ## v0.4
 ### goormIDE 사용 시작
 - goormIDE
+	- [ ] 상대경로 -> 절대경로로 수정
 - zsh
 	- [x] 자동 업데이트 사용
 
