@@ -5,6 +5,7 @@ plugins=(
 	git
 	zsh-autosuggestions
 )
+DISABLE_AUTO_UPDATE="true"
 source $ZSH/oh-my-zsh.sh
 
 # PATH
