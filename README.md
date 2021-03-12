@@ -1,13 +1,15 @@
 # .zshrc
 
+```
+ln -s /home/brik0519/desktop/zshrc/.zshrc ~/.zshrc
+```
+
 ## v0.3
 ### https 개시
 - nginx
     - ng
     - ngk
     - ngr
-- [ ] DB 관련 명령어?
-
 
 ## v0.2
 ### 본격적인 설정파일 공유
