@@ -70,6 +70,7 @@ alias fe='cd ~/desktop/space/templates/postbox/.hidden && cp ./e/postbox.html ..
 # kingdom
 alias kp='cd ~/desktop/space/templates/invitation/.hidden && cp ./p/invitation.html .. && spr'
 alias kf='cd ~/desktop/space/templates/invitation/.hidden && cp ./f/invitation.html .. && spr'
+
 ## labs
 alias lap='cd /home/brik0519/labs'
 alias fip='cd /home/brik0519/labs/firebaseLab'
