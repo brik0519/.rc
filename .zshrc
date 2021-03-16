@@ -7,14 +7,11 @@ plugins=(
 )
 DISABLE_AUTO_UPDATE="true"
 source $ZSH/oh-my-zsh.sh
-<<<<<<< HEAD
-export TMOUT=1200
-=======
+
 
 # PATH
 export PATH=$HOME/.local/bin:$PATH
 
->>>>>>> 42498f8cbc7eee7f854a1de75eef49459b1206bf
 
 # System
 alias vi='vim'
