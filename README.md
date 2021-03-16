@@ -1,16 +1,25 @@
 # .zshrc
 
+```
+ln -s /home/brik0519/desktop/zshrc/.zshrc ~/.zshrc
+```
+
+## v0.4
+### goormIDE 사용 시작
+- goormIDE
+	- [ ] 상대경로 -> 절대경로로 수정
+- zsh
+	- [x] 자동 업데이트 사용
+
 ## v0.3
 ### https 개시
 - nginx
     - ng
     - ngk
     - ngr
-- [ ] DB 관련 명령어?
-
 
 ## v0.2
-### 본격적인 설정파일 공유
+### Azure 본격적인 설정파일 공유
 - mdd
     - form 디렉토리와 연동
 - space
