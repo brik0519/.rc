@@ -11,7 +11,7 @@ ln -s /home/brik0519/desktop/zshrc/.zshrc ~/.zshrc
     - ngk
     - ngr
 - zsh
-    - [x] 자동 업데이트 사용
+    - 자동 업데이트 사용
 
 ## v0.2
 ### Azure 본격적인 설정파일 공유
