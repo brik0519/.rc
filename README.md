@@ -4,19 +4,14 @@
 ln -s /home/brik0519/desktop/zshrc/.zshrc ~/.zshrc
 ```
 
-## v0.4
-### goormIDE 사용 시작
-- goormIDE
-	- [ ] 상대경로 -> 절대경로로 수정
-- zsh
-	- [x] 자동 업데이트 사용
-
 ## v0.3
 ### https 개시
 - nginx
     - ng
     - ngk
     - ngr
+- zsh
+    - [x] 자동 업데이트 사용
 
 ## v0.2
 ### Azure 본격적인 설정파일 공유
