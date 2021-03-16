@@ -6,7 +6,7 @@ plugins=(
 	zsh-autosuggestions
 )
 source $ZSH/oh-my-zsh.sh
-
+export TMOUT=1200
 
 # System
 alias vi='vim'
@@ -48,6 +48,15 @@ alias spr='sudo systemctl restart space'
 #alias mvtoon='mv ~/desktop/mdforest/templates/mdtoon/.hidden/0*.html ~/desktop/mdforest/templates/mdtoon/'
 #alias backtoon='mv ~/desktop/mdforest/templates/mdtoon/0*.html ~/desktop/mdforest/templates/mdtoon/.hidden/'
 
+## fin
+alias fb='cd ~/desktop/space/templates/postbox/.hidden && cp ./b/postbox.html .. && spr'
+alias fc='cd ~/desktop/space/templates/postbox/.hidden && cp ./c/postbox.html .. && spr'
+alias fd='cd ~/desktop/space/templates/postbox/.hidden && cp ./d/postbox.html .. && spr'
+alias fe='cd ~/desktop/space/templates/postbox/.hidden && cp ./e/postbox.html .. && spr'
+
+# kingdom
+alias kp='cd ~/desktop/space/templates/invitation/.hidden && cp ./p/invitation.html .. && spr'
+alias kf='cd ~/desktop/space/templates/invitation/.hidden && cp ./f/invitation.html .. && spr'
 
 # PATH
 alias sep='cd ~/desktop/service'
