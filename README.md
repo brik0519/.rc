@@ -4,6 +4,9 @@
 ln -s /home/brik0519/desktop/zshrc/.zshrc ~/.zshrc
 ```
 
+## v0.4
+- 군대에서 쓰는 용도로 최적화
+
 ## v0.3
 ### https 개시
 - nginx
