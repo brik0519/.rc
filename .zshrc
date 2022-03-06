@@ -5,10 +5,7 @@ plugins=(
 	git
 	zsh-autosuggestions
 )
-<<<<<<< HEAD
-=======
 DISABLE_AUTO_UPDATE="true"
->>>>>>> 3c0d4f7558f1f36663da912806a6d69368d130e5
 source $ZSH/oh-my-zsh.sh
 [[ -s /home/aborruso/.autojump/etc/profile.d/autojump.sh ]] && source /home/aborruso/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
@@ -21,12 +18,7 @@ export PATH=$HOME/.local/bin:$PATH
 alias vi='vim'
 alias lg='logout'
 alias cl='clear'
-<<<<<<< HEAD
-alias cr='crontab -e'
-alias zsh='vi ~/desktop/zshrc/.zshrc'
-=======
-alias zs='vim /home/brik0519/desktop/zshrc/.zshrc'
->>>>>>> 3c0d4f7558f1f36663da912806a6d69368d130e5
+alias zsh='vim ~/desktop/zshrc/.zshrc'
 
 
 # Fail2ban
@@ -38,7 +30,6 @@ alias python='python3'
 alias pip='pip3'
 alias ve='source .venv/bin/activate'
 alias de='deactivate'
-<<<<<<< HEAD
 
 
 # Desktop
@@ -56,8 +47,4 @@ alias spr='sudo systemctl restart space'
 alias sep='cd ~/desktop/service'
 alias ngp='cd ~/desktop/nginx'
 alias spp='cd ~/desktop/space'
-alias mdp='cd ~/desktop/mdforest'
 alias zsp='cd ~/desktop/zshrc'
-=======
-alias pyt='python3'
->>>>>>> 3c0d4f7558f1f36663da912806a6d69368d130e5
