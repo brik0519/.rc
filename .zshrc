@@ -1,9 +1,13 @@
 # Basic
 export ZSH="/home/brik0519/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
-plugins=(git)
+plugins=(
+	git
+	zsh-autosuggestions
+)
 source $ZSH/oh-my-zsh.sh
-
+[[ -s /home/aborruso/.autojump/etc/profile.d/autojump.sh ]] && source /home/aborruso/.autojump/etc/profile.d/autojump.sh
+autoload -U compinit && compinit -u
 
 # System
 alias vi='vim'

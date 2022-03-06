@@ -1,5 +1,9 @@
 # .zshrc
 
+
+## v0.4
+reset
+
 ## v0.3
 ### https 개시
 - nginx
