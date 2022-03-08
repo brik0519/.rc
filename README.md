@@ -1,6 +1,6 @@
 # .zshrc
 ```
-ln -s /home/brik0519/desktop/zshrc/.zshrc ~/.zshrc
+cd ~/ && ln -s ~/desktop/zshrc/.zshrc ~/.zshrc
 ```
 
 
