@@ -1,12 +1,21 @@
-# .zshrc
+
+
+# .rc
+## .vimrc
 ```
-cd ~/ && ln -s ~/desktop/zshrc/.zshrc ~/.zshrc
+cd ~/ && ln -s ~/desktop/.rc/.vimrc ~/.vimrc
+```
+
+## .zshrc
+```
+cd ~/ && ln -s ~/desktop/.rc/.zshrc ~/.zshrc
 ```
 
 
 ## v0.4
 ### 부분수정
 - 예전 서비스 관련 명령어 제거
+- .rc로 프로젝트 이름 변경 및 .vimrc 추가
 
 ## v0.3
 ### https 개시
