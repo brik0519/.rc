@@ -13,7 +13,6 @@ autoload -U compinit && compinit -u
 # PATH
 export PATH=$HOME/.local/bin:$PATH
 
-
 # System
 alias vi='vim'
 alias lg='logout'
