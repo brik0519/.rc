@@ -8,6 +8,7 @@ cd ~/ && ln -s ~/desktop/.rc/.vimrc ~/.vimrc
 
 ## .zshrc
 ```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && /
 cd ~/ && ln -s ~/desktop/.rc/.zshrc ~/.zshrc
 ```
 
