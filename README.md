@@ -2,7 +2,8 @@
 ## .vimrc
 ```
 git clone https://github.com/nanotech/jellybeans.vim /
-&& sudo mv ~/jellybeans.vim/jellybeans.vim /usr/share/vim/vim81/colors/jellybeans.vim
+&& sudo mv ~/jellybeans.vim/colors/jellybeans.vim /usr/share/vim/vim82/colors/jellybeans.vim
+cd ~/ && ln -s ~/desktop/.rc/.vimrc ~/.vimrc
 ```
 
 ## .zshrc
