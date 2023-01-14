@@ -12,6 +12,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 cd ~/ && ln -s ~/desktop/.rc/.zshrc ~/.zshrc
 ```
 
+## 230115
+### workspaceWeb에 맞추어 명령어 변경
+
 ## 220308
 ### 부분수정
 - 예전 서비스 관련 명령어 제거

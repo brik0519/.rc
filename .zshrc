@@ -17,7 +17,7 @@ export PATH=$HOME/.local/bin:$PATH
 alias vi='vim'
 alias lg='logout'
 alias cl='clear'
-alias zsh='vim ~/desktop/zshrc/.zshrc'
+alias zsh='vim ~/.zshrc'
 
 
 # Fail2ban
@@ -30,7 +30,6 @@ alias pip='pip3'
 alias ve='source .venv/bin/activate'
 alias de='deactivate'
 
-
 # Desktop
 ## nginx
 alias ng='sudo systemctl start nginx'
@@ -42,7 +41,14 @@ alias sp='sudo systemctl start space'
 alias spk='sudo systemctl stop space'
 alias spr='sudo systemctl restart space'
 
+## workspaceWeb
+alias rwks='cd ~/desktop/workspaceWeb && source .venv/bin/activate && /
+			nohup python3 ~/desktop/workspaceWeb/app.py 1> /dev/null 2>&1 &;
+			deactivate; cd'
+alias kwks='pkill -9 -ef app.py'
+
 # PATH
+alias webp='cd ~/desktop/workspaceNet'
 alias sep='cd ~/desktop/service'
 alias ngp='cd ~/desktop/nginx'
 alias spp='cd ~/desktop/space'
