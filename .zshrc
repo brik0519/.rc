@@ -42,14 +42,18 @@ alias spk='sudo systemctl stop space'
 alias spr='sudo systemctl restart space'
 
 ## workspaceWeb
-alias rwks='cd ~/desktop/workspaceWeb && source .venv/bin/activate && /
+alias swks='cd ~/desktop/workspaceWeb && source .venv/bin/activate && /
 			nohup python3 ~/desktop/workspaceWeb/app.py 1> /dev/null 2>&1 &;
 			deactivate; cd'
 alias kwks='pkill -9 -ef app.py'
+alias swks='pkill -9 -ef app.py && /
+			cd ~/desktop/workspaceWeb && source .venv/bin/activate && /
+			nohup python3 ~/desktop/workspaceWeb/app.py 1> /dev/null 2>&1 &;
+			deactivate; cd'
+
+
 
 # PATH
-alias webp='cd ~/desktop/workspaceNet'
-alias sep='cd ~/desktop/service'
-alias ngp='cd ~/desktop/nginx'
-alias spp='cd ~/desktop/space'
 alias rcp='cd ~/desktop/.rc'
+alias wksp='cd ~/desktop/.workspace'
+alias wwksp='cd ~/desktop/workspaceWeb'
